@@ -5,68 +5,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <!-- Header -->
-    <header>
-        <nav>
-            <a href="./index.html"><img src="./images/logo.png" alt="logo" width="40">Product</a>
-            <ul>
-                <li><a href="./index.html">Product</a>
-                </li>
-                <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./customers.html">Customers</a></li>
-                <li><a href="./resourses.html">Reasources</a></li>
+    <header class="main-header">
+        <div class="container">
+            <nav class="navigation">
+                <a href="./index.html" class="nav-logo"><img src="./images/logo.png" alt="logo" width="40"
+                        class="nav-logo-img">Product</a>
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="./index.html" class="nav-list-link current">Product</a>
+                    </li>
+                    <li class="nav-list-item"><a href="./pricing.html" class="nav-list-link">Pricing</a></li>
+                    <li class="nav-list-item"><a href="./customers.html" class="nav-list-link">Customers</a></li>
+                    <li class="nav-list-item"><a href="./resourses.html" class="nav-list-link">Reasources</a></li>
+                </ul>
+            </nav>
+            <ul class="header-list-btn">
+                <li class="header-item-btn"><button type="button" class="header-btn sign-in">Sign In</button></li>
+                <li class="header-item-btn"><button type="button" class="header-btn sign-up">Sign Up</button> </li>
             </ul>
-            <ul>
-                <li>
-                    <button type="button">Sign In</button>
-                </li>
-                <li>
-                    <button type="button">Sign Up</button>
-                </li>
-            </ul>
-
-        </nav>
+        </div>
     </header>
 
     <main>
         <section>
-            <h1>Work at the speed of thought</h1>
-            <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your
-                next user
-                experience.</p>
-            <ul>
-                <li><button type="button">Get started</button></li>
-                <li><button type="button">Watch the Video</button></li>
-            </ul>
-            <img src="images/hero-img.png" alt="hero" width="610">
+            <div class="container section-one-container">
+                <div class="section-one">
+                    <h1 class="section-one-heading">Work at the speed of thought</h1>
+                    <p class="section-one-p">Tools, tutorials, design and innovation experts, all in one place! The most
+                        intuitive way to
+                        imagine
+                        your
+                        next user
+                        experience.</p>
+                    <ul class="section-one-list">
+                        <li class="so-list-item"><button type="button" class="section-one-btn get-started">Get
+                                started</button></li>
+                        <li class="so-list-item"><button type="button" class="section-one-btn watch-video">Watch the
+                                Video</button>
+                        </li>
+                    </ul>
+                </div>
+                <img src="images/hero-img.png" alt="hero" width="610">
+            </div>
         </section>
 
         <section>
-            <h2>Product was Built Specifically for You</h2>
-            <ul>
-                <li>
-                    <h3>First click tests</h3>
-                    <p>While most people enjoy casino gambling,</p>
 
-                </li>
-                <li>
-                    <h3>Design surveys</h3>
-                    <p>Sports betting, lottery and bingo playing for the fun</p>
+            <div class="container section-two-container">
+                <h2 class="section-two-heading">Product was Built Specifically for You</h2>
+                <ul class="section-two-list">
+                    <li class="st-list-item">
+                        <h3 class="st-item-heading">First click tests</h3>
+                        <p class="st-item-p">While most people enjoy casino gambling,</p>
+                    </li>
+                    <li class="st-list-item">
+                        <h3 class="st-item-heading">Design surveys</h3>
+                        <p class="st-item-p">Sports betting, lottery and bingo playing for the fun</p>
+                    </li>
+                    <li class="st-list-item">
+                        <h3 class="st-item-heading">Preference tests</h3>
+                        <p class="st-item-p">The Myspace page defines the individual.</p>
+                    </li>
+                    <li class="st-list-item">
+                        <h3 class="st-item-heading">Five second tests</h3>
+                        <p class="st-item-p">Personal choices and the overall personality of the person.</p>
+                    </li>
+                </ul>
+                <button type="button" class="section-two-btn sign-up-now">Sign up now</button>
+            </div>
 
-                </li>
-                <li>
-                    <h3>Preference tests</h3>
-                    <p>The Myspace page defines the individual.</p>
-                </li>
-                <li>
-                    <h3>Five second tests</h3>
-                    <p>Personal choices and the overall personality of the person.</p>
-                </li>
-            </ul>
-            <button type="button">Sign up now</button>
         </section>
 
         <section>
