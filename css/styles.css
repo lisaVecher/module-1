@@ -200,11 +200,13 @@ img {
     display: flex;
     margin-bottom: 50px;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
-/* Q1 */
 .st-list-item {
-    width: calc((100% - 3 * 30px) / 4);
+    width: calc((100% - 90px) / 4);
+
 }
 
 .section-two-btn {
@@ -421,15 +423,48 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
-.section-six-heading {}
+.section-six-heading {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 25px;
+}
 
-.section-six-p {}
+.section-six-p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.section-six-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 100px;
+    margin-bottom: 50px;
+}
+
+.sx-list-item {
+    display: flex;
+    gap: 20px;
+    width: calc((100% - 100px) / 2);
+    max-width: 420px;
+    align-items: center;
+}
 
 .img-woman {}
 
-.ssix-img-p {}
+.ssix-img-p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
 
 .img-old-woman {}
 
@@ -437,4 +472,12 @@ img {
 
 .img-old-man {}
 
-.ssix-btn {}
+.ssix-btn {
+    background: #02897a;
+    border-radius: 4px;
+    width: 216px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
