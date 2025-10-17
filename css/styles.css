@@ -481,3 +481,397 @@ img {
     font-size: 16px;
     color: #fff;
 }
+
+/* SECTION SEVEN */
+
+.container {}
+
+.section-seven-container {
+    margin-bottom: 171px;
+}
+
+.section-seven-header {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+    margin-bottom: 10px;
+}
+
+.section-seven-p {
+    width: 465px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #22343d;
+    margin-bottom: 40px;
+}
+
+.section-seven {}
+
+.section-seven-list {
+    display: flex;
+    gap: 30px;
+}
+
+.section-seven-item {
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.s-seven-img {
+    margin-bottom: 24px;
+}
+
+.sseven-list-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #22343d;
+    margin-left: 24px;
+    margin-bottom: 12px;
+}
+
+.sseven-span {
+    font-weight: 700;
+}
+
+.sseven-list-header {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.6;
+    color: #22343d;
+    transition: color 350ms ease-out;
+    margin-left: 27px;
+    margin-bottom: 40px;
+}
+
+.sseven-list-header:hover {
+    color: #02897a;
+}
+
+/* SECTION EIGHT */
+
+.container {}
+
+.section-eight-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.section-eight-header {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+    margin-bottom: 10px;
+}
+
+.section-eight-p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #22343d;
+    margin-bottom: 40px;
+}
+
+.section-eight-list {
+    display: flex;
+    gap: 72px;
+}
+
+.section-eight-item {
+    border-radius: 8px;
+    width: 322px;
+    height: 456px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: background-color 350ms ease-out;
+}
+
+.section-eight-item:hover {
+    background: #02897a;
+}
+
+.se-item-header {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.6;
+    color: #22343d;
+    margin-bottom: 8px;
+}
+
+.se-item-header:hover {
+    color: #fff;
+}
+
+.se-item-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.5;
+    color: #22343d;
+    font-family: "Montserrat", sans-serif;
+}
+
+.se-item-p:hover {
+    color: #fff;
+}
+
+.se-p-price {
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 24px;
+    color: #afafaf;
+}
+
+.se-p-price:hover {
+    color: #e0e0e0;
+}
+
+.se-price {
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.31579;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+}
+
+.se-price:hover {
+    color: #fff;
+}
+
+.se-price-symbol {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    color: #02897a;
+}
+
+.se-price-symbol:hover {
+    color: #fff;
+}
+
+.se-list-options {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.se-item-option {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.375;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    font-family: "Montserrat", sans-serif;
+}
+
+.se-item-option:hover {
+    color: #fff;
+}
+
+.se-list-btn {
+    background-color: #02897a;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 8px;
+    width: 139px;
+    height: 44px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.se-list-btn:hover {
+    background-color: #fff;
+    color: #02897a;
+}
+
+
+/* SECTION NINE */
+
+.container {}
+
+.section-nine-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.section-nine-header {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    margin-bottom: 10px;
+}
+
+.section-nine-p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 40px;
+}
+
+.section-nine-list {
+    display: flex;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+
+.section-nine-item {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    height: 240px;
+    width: calc((100% - 128px) / 3);
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 26px;
+}
+
+.sn-item-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #737373;
+
+}
+
+.item-inform-container {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.sn-item-img {}
+
+.inform-container-position {}
+
+.sn-item-heading {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #02897a;
+}
+
+.sn-p-position {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    color: #252b42;
+}
+
+/* SECTION TEN */
+
+.container {}
+
+.section-ten-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 32px;
+    width: 968px;
+    background: #02897a;
+    margin-bottom: 100px;
+}
+
+.section-ten {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 46px;
+    padding: 49px 10px 56px 51px;
+}
+
+.section-ten-p {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.514;
+    color: #fff;
+}
+
+.section-ten-btn {
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
+}
+
+.section-ten-img {}
+
+/* FOOTER */
+
+.container {}
+
+.section-footer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.footer-logo-link {
+    margin-right: 146px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93333;
+    color: #173a56;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.fotter-first-list {
+    margin-right: 129px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-list-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+}
+
+.footer-list {}
+
+.footer-list-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.1875;
+    color: #22343d;
+}
+
+.footer-second-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-undertext {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    color: #22343d;
+    text-align: center;
+}
