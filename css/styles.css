@@ -149,6 +149,7 @@ img {
 
 .section-one-list {
     display: flex;
+    gap: 30px;
 }
 
 .so-list-item {}
@@ -164,7 +165,6 @@ img {
     font-size: 16px;
     color: #fff;
     background: #02897a;
-    margin-right: 30px;
 }
 
 .watch-video {
@@ -173,8 +173,16 @@ img {
     text-decoration-skip-ink: none;
     color: #02897a;
     background-color: #fff;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
+.hero-icon {
+    border-radius: 2px;
+    fill: #02897a;
+}
 
 /* SECTION TWO */
 
@@ -206,7 +214,36 @@ img {
 
 .st-list-item {
     width: calc((100% - 90px) / 4);
+}
 
+.green {
+    background-color: #02897a;
+}
+
+.blue {
+    background-color: #4d8dff;
+}
+
+.violet {
+    background-color: #740a76;
+}
+
+.red {
+    background-color: #f03e3d;
+}
+
+.specifically-box {
+    border-radius: 19px;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.specifically-icon {
+    fill: #fff;
 }
 
 .section-two-btn {
@@ -446,7 +483,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px 100px;
+    gap: 25px 100px;
     margin-bottom: 50px;
 }
 
@@ -582,6 +619,14 @@ img {
 }
 
 .section-eight-item {
+    /* text-align: center;
+    width: calc((100% - 144px) / 3);
+    padding: 32px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    color: #22313d; */
+
     border-radius: 8px;
     width: 322px;
     height: 456px;
