@@ -807,6 +807,7 @@ img {
     text-align: center;
     color: #22343d;
     margin-bottom: 40px;
+    width: 537px;
 }
 
 .section-nine-list {
@@ -823,7 +824,13 @@ img {
     gap: 16px;
     display: flex;
     flex-direction: column;
-    padding: 16px 26px;
+    padding: 28px 26px;
+}
+
+.snine-icons-container {}
+
+.snine-icon {
+    fill: #f3cd03;
 }
 
 .sn-item-p {
@@ -922,6 +929,7 @@ img {
     align-items: flex-start;
     gap: 16px;
 }
+
 
 .fotter-first-list {
     margin-right: 129px;
