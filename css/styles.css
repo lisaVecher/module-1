@@ -982,15 +982,30 @@ img {
     display: flex;
     align-items: flex-start;
     gap: 16px;
+    margin-bottom: 18px;
 }
 
 .logo-icon {}
 
-.icon-footer {}
+.icon-footer-container {
+    display: flex;
+    gap: 16px;
+}
+
+.icon-footer {
+    border-radius: 100%;
+    background-color: #edfffc;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
 
 .social-icon {
     stroke: #02897a;
     fill: none;
+    top: 10px;
+    left: 10px;
+    position: absolute;
 }
 
 
@@ -1021,6 +1036,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    min-width: 131px;
 }
 
 .footer-undertext {
@@ -1042,6 +1058,20 @@ img {
     font-size: 20px;
     line-height: 1.5;
     color: #22343d;
+    margin-bottom: 30px;
+    width: 280px;
+}
+
+.input-container-footer {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.input-icon-footer {
+    fill: #02897a;
+    position: absolute;
+    top: 10px;
+    left: 13px;
 }
 
 .footer-form-input {
@@ -1050,6 +1080,7 @@ img {
     width: 325px;
     height: 48px;
     background: #fff;
+    padding-left: 42px;
 }
 
 .footer-form-input::placeholder {
