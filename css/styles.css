@@ -1101,3 +1101,195 @@ img {
     border-radius: 4px;
 
 }
+
+
+
+/* CUSTOMERS PAGE */
+
+.customers-header {
+    margin-bottom: 100px;
+}
+
+.customers-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* SECTION ONE - OUR CLIENTS */
+
+.container {}
+
+.customers-sone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 117px;
+}
+
+.cust-sone-heading {
+    font-weight: 700;
+    font-size: 40px;
+    color: #22343d;
+    margin-bottom: 50px;
+}
+
+.cust-sone-logo {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+/* SECTION TWO - WHY CHOOSE PRODUCT? */
+
+.section-two {
+    background: #f5f5f5;
+}
+
+.container {}
+
+.cust-stwo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.cust-stwo-heading {
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    color: #22343d;
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+
+.cust-stwo-list-container {
+    margin-bottom: 68px;
+}
+
+.cust-stwo-list {
+    display: flex;
+    gap: 30px;
+}
+
+.stwo-list-item {
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    width: 350px;
+    height: 305px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 37px 34px 38px;
+}
+
+.stwo-item-heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.375;
+    letter-spacing: 0em;
+    color: #22343d;
+    margin-bottom: 16px;
+    width: 294px;
+}
+
+.stwo-item-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6875;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+
+.specifically-box.cust {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+/* SECTION THREE - HOW PRODUCT WORK? */
+
+.container {}
+
+.cust-sthree-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 115px;
+}
+
+.cust-sthree-heading {
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 73px;
+}
+
+.sthree-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 77px;
+}
+
+.sthree-container:not(:last-child) {
+    gap: 100px;
+}
+
+.cust-sthree-step-container {
+    display: flex;
+    align-items: center;
+    gap: 89px;
+}
+
+.cust-sthree-step-container.revert {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 76px;
+}
+
+.sthree-step-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 438px;
+}
+
+.sthre-item-heading {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #22343d;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+}
+
+.cust-sthree-span {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 16px;
+}
+
+.sthree-item-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
+
+.cust-sthree-btn {
+    border-radius: 8px;
+    width: 224px;
+    height: 44px;
+    background: #02897a;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
