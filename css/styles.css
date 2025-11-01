@@ -1484,3 +1484,190 @@ img {
     color: #fff;
     font-family: "Inter", sans-serif;
 }
+
+/* SECTION TWO - ARE YOU INTERESTED IN A CUSTOM-TAILORED PLAN? */
+
+.prici-section-two {
+    background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
+}
+
+.prici-stwo-container {
+    margin-bottom: 294px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prici-stwo-heading {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prici-stwo-span {
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+    margin-top: 53px;
+    margin-bottom: 16px;
+}
+
+.prici-stwo-p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #22343d;
+    margin-bottom: 32px;
+}
+
+.prici-stwo-btn {
+    border-radius: 8px;
+    width: 224px;
+    height: 44px;
+    background: #02897a;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* SECTION THREE - PRODUCT IS BEING USED WITH GREAT EFFECTS ALONGSIDE */
+
+.container {}
+
+.prici-sthree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prici-sthree-heading {
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+}
+
+.prici-three-container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.prici-sthree-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.prici-sthree-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.prici-sthree-icon-h {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 16px;
+}
+
+.prici-sthree-icon-box {
+    border-radius: 100px;
+    padding: 24px;
+    width: 50px;
+    height: 50px;
+    background: #f4f5f7;
+    position: relative;
+}
+
+.prici-sthree-icon {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+
+.prici-sthree-list-h {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #22343d;
+}
+
+.prici-sthree-list-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
+
+/* SECTION FOUR - FREQUENTLY ASKED QUESTION */
+
+.container {}
+
+.prici-sfour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.prici-sfour-heading {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+    margin-bottom: 8px;
+}
+
+.prici-sfour-p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #22343d;
+    margin-bottom: 50px;
+}
+
+.prici-sfour-list {
+    display: flex;
+    flex-direction: column;
+    max-width: 920px;
+    gap: 16px;
+}
+
+.prici-sfour-item {
+    width: 100%;
+}
+
+.prici-sfour-item::after {
+    border: 1px solid #e7e7e7;
+    width: 920px;
+    height: 0px;
+    content: "";
+    display: block;
+}
+
+.prici-sfour-icon-box {
+    display: flex;
+    gap: 16px;
+    padding-bottom: 22px;
+}
+
+.prici-sfour-icon {
+    fill: #02897a;
+}
+
+.prici-sfour-item-h {
+    font-weight: 500;
+    font-size: 18px;
+    color: #22343d;
+}
+
+.prici-sfour-item-p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343d;
+    padding-bottom: 24px;
+}
