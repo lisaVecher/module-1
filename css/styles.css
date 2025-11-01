@@ -1104,7 +1104,7 @@ img {
 
 
 
-/* CUSTOMERS PAGE */
+/*! CUSTOMERS PAGE */
 
 .customers-header {
     margin-bottom: 100px;
@@ -1292,4 +1292,195 @@ img {
     font-size: 18px;
     color: #fff;
     font-family: "Montserrat", sans-serif;
+}
+
+/* SECTION FOUR - JOIN THOUSAND OF OTHER WHO HAVE ALREADY RECEIVED OFFERS */
+
+.section-four {
+    background: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
+}
+
+.container {}
+
+.cust-sfour-container {
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cust-sfour-heading {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+    margin-top: 35px;
+    margin-bottom: 93px;
+    width: 537px;
+}
+
+.cust-sfour-list-container {
+    display: flex;
+    gap: 227px;
+}
+
+.cust-sfour-list-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cust-sfour-img {
+    margin-bottom: 27px;
+}
+
+.cust-sfour-list-heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.16667;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.cust-sfour-list {
+    margin-bottom: 12px;
+}
+
+.cust-sfour-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.77;
+    text-align: center;
+    color: #22343d;
+}
+
+.cust-sfour-p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #000;
+}
+
+/* CUST-FOOTER */
+
+.cust-footer-form-input {
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    width: 325px;
+    height: 48px;
+    background: #fff;
+    padding-left: 42px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+    background;
+}
+
+/*! PRICING PAGE */
+
+/* SECTION ONE - LET'S GET SOME REAL WORK DONE HERE */
+
+.container {}
+
+.prici-sone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.prici-sone-heading {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #22343d;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.prici-sone-span {
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+    margin-bottom: 32px;
+}
+
+.prici-sone-p {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 50px;
+}
+
+.prici-se-item-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.5;
+    color: #22343d;
+}
+
+.prici-se-p-price {
+    padding-bottom: 24px;
+    color: #afafaf;
+    position: relative;
+}
+
+.prici-se-price-symbol {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    color: #02897a;
+    position: absolute;
+    top: 27px;
+    font-family: "Inter",
+        sans-serif;
+}
+
+.prici-se-item-option {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.375;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    font-family: "Inter", sans-serif;
+}
+
+.prici-se-item-p-second {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.5;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.prici-se-p-price-second {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.01em;
+    color: #e0e0e0;
+    padding-bottom: 24px;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.prici-se-price-symbol-second {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #fff;
+    position: absolute;
+    top: 27px;
+    font-family: "Inter", sans-serif;
+}
+
+.prici-se-item-option-second {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: 0.01em;
+    color: #fff;
+    font-family: "Inter", sans-serif;
 }

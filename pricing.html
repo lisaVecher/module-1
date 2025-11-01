@@ -5,72 +5,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prising</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="./index.html"><img src="./images/logo.png" alt="logo" width="40">Product</a>
-            <ul>
-                <li><a href="./index.html">Product</a>
-                </li>
-                <li><a href="./customers.html">Customers</a></li>
-                <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./resourses.html">Reasources</a></li>
+    <header class="customers-header">
+        <div class="container">
+            <nav class="navigation">
+                <a href="./index.html" class="nav-logo"><img src="./images/logo.png" alt="logo" width="40"
+                        class="nav-logo-img">Product</a>
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="./index.html" class="nav-list-link">Product</a>
+                    </li>
+                    <li class="nav-list-item"><a href="./customers.html" class="nav-list-link">Customers</a>
+                    </li>
+                    <li class="nav-list-item"><a href="./pricing.html" class="nav-list-link current">Pricing</a></li>
+                    <li class="nav-list-item"><a href="./resourses.html" class="nav-list-link">Reasources</a></li>
+                </ul>
+            </nav>
+            <ul class="header-list-btn">
+                <li class="header-item-btn"><button type="button" class="header-btn sign-in">Sign In</button></li>
+                <li class="header-item-btn"><button type="button" class="header-btn sign-up">Sign Up</button> </li>
             </ul>
-            <ul>
-                <li>
-                    <button type="button">Sign In</button>
-                </li>
-                <li>
-                    <button type="button">Sign Up</button>
-                </li>
-            </ul>
-
-        </nav>
+        </div>
     </header>
 
     <main>
 
         <!-- Section 1 - Let's get some real work done here. -->
         <section>
-            <h1><span>PRICING</span>Let's get some real work done here.</h1>
-            <p>Prodict is your perfect solution for working. Get started now for free</p>
-            <ul>
-                <li>
-                    <h3>Free</h3>
-                    <p>Brief price description</p>
-                    <p><span>0</span><span>$</span>Per / month</p>
-                    <ul>
-                        <li>Only 2 Operators</li>
-                        <li>Notifications</li>
-                        <li>Landing Pages</li>
-                        <button type="button">Order Now</button>
-                    </ul>
-                </li>
-                <li>
-                    <h3>Standard</h3>
-                    <p>Brief price description</p>
-                    <p><span>5</span><span>$</span>Per / month</p>
-                    <ul>
-                        <li>5+ Operators</li>
-                        <li>Notifications</li>
-                        <li>Landing Pages</li>
-                        <button type="button">Order Now</button>
-                    </ul>
-                </li>
-                <li>
-                    <h3>Premium</h3>
-                    <p>Brief price description</p>
-                    <p><span>10</span><span>$</span>Per / month</p>
-                    <ul>
-                        <li>10+ Operators</li>
-                        <li>Notifications</li>
-                        <li>Landing Pages</li>
-                        <button type="button">Order Now</button>
-                    </ul>
-                </li>
-            </ul>
+            <div class="container prici-sone-container">
+                <h1 class="prici-sone-heading"><span class="prici-sone-span">PRICING</span>Let's get some real work done
+                    here.</h1>
+                <p class="prici-sone-p">Prodict is your perfect solution for working. Get started now for free</p>
+                <ul class="section-eight-list">
+                    <li class="section-eight-item">
+                        <h3 class="se-item-header">Free</h3>
+                        <p class="prici-se-item-p">Brief price description</p>
+                        <p class="prici-se-p-price"><span class="se-price">0</span><span
+                                class="prici-se-price-symbol">$</span>Per /
+                            month</p>
+                        <ul class="se-list-options">
+                            <li class="prici-se-item-option">Only 2 Operators</li>
+                            <li class="prici-se-item-option">Notifications</li>
+                            <li class="prici-se-item-option">Landing Pages</li>
+                        </ul>
+                        <button type="button" class="se-list-btn">Order Now</button>
+                    </li>
+                    <li class="section-eight-item item-second">
+                        <h3 class="se-item-header-second">Standard</h3>
+                        <p class="prici-se-item-p-second">Brief price description</p>
+                        <p class="prici-se-p-price-second"><span class="se-price-second">5</span><span
+                                class="prici-se-price-symbol-second">$</span>Per /
+                            month</p>
+                        <ul class="se-list-options">
+                            <li class="prici-se-item-option-second">5+ Operators</li>
+                            <li class="prici-se-item-option-second">Notifications</li>
+                            <li class="prici-se-item-option-second">Landing Pages</li>
+                        </ul>
+                        <button type="button" class="se-list-btn-second">Order Now</button>
+                    </li>
+                    <li class="section-eight-item">
+                        <h3 class="se-item-header">Premium</h3>
+                        <p class="prici-price-se-item-p">Brief price description</p>
+                        <p class="prici-se-p-price"><span class="se-price">10</span><span
+                                class="prici-se-price-symbol">$</span>Per
+                            / month</p>
+                        <ul class="se-list-options">
+                            <li class="prici-se-item-option">10+ Operators</li>
+                            <li class="prici-se-item-option">Notifications</li>
+                            <li class="prici-se-item-option">Landing Pages</li>
+                        </ul>
+                        <button type="button" class="se-list-btn">Order Now</button>
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <!-- Section 2 - Are you interested  in a custom-tailored plan? -->
