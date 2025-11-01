@@ -5,97 +5,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resourses</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="./index.html"><img src="./images/logo.png" alt="logo" width="40">Product</a>
-            <ul>
-                <li><a href="./index.html">Product</a>
-                </li>
-                <li><a href="./customers.html">Customers</a></li>
-                <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./resourses.html">Reasources</a></li>
-            </ul>
-            <ul>
-                <li>
-                    <button type="button">Sign In</button>
-                </li>
-                <li>
-                    <button type="button">Sign Up</button>
-                </li>
-            </ul>
 
-        </nav>
+    <!-- HEADER -->
+    <header class="customers-header">
+        <div class="container">
+            <nav class="navigation">
+                <a href="./index.html" class="nav-logo"><img src="./images/logo.png" alt="logo" width="40"
+                        class="nav-logo-img">Product</a>
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="./index.html" class="nav-list-link">Product</a>
+                    </li>
+                    <li class="nav-list-item"><a href="./customers.html" class="nav-list-link">Customers</a>
+                    </li>
+                    <li class="nav-list-item"><a href="./pricing.html" class="nav-list-link">Pricing</a></li>
+                    <li class="nav-list-item"><a href="./resourses.html" class="nav-list-link current">Reasources</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="header-list-btn">
+                <li class="header-item-btn"><button type="button" class="header-btn sign-in">Sign In</button></li>
+                <li class="header-item-btn"><button type="button" class="header-btn sign-up">Sign Up</button> </li>
+            </ul>
+            <div class="header-icon-box">
+                <svg class="header-icon" width="24" height="24">
+                    <use href="./images/icons.svg#theme"></use>
+                </svg>
+            </div>
+        </div>
     </header>
+
     <main>
 
         <!-- Section 1 - Great Business made with Product. -->
         <section>
 
-            <h1>Great Business made with Product.</h1>
-
-            <p>Build better customer relationships easily messaging that provides a more personal experience for you and
-                your customers.</p>
-
-            <img src="./images/chat-bot-back.png" alt="Chat Bot" width="435">
-            <img src="./images/screen-mask-ahead.png" alt="Screen Mask" width="359">
-
-            <button type="button">Join Now</button>
-
-            <img src="./images/group-1451.png" alt="Customers" width="121">
-
-            <p>Join over 4,000+ other</p>
-
+            <div class="container reso-sone">
+                <div class="reso-sone-container">
+                    <h1 class="reso-sone-heading">Great Business made with Product.</h1>
+                    <p class="reso-sone-p">Build better customer relationships easily messaging that provides a more
+                        personal experience for you
+                        and
+                        your customers.</p>
+                    <div class="reso-sone-input-box">
+                        <input type="email" class="reso-sone-input" placeholder="Enter your email adress">
+                        <button type="button" class="reso-sone-btn">Join Now</button>
+                    </div>
+                    <div class="reso-sone-join-box">
+                        <img src="./images/group-1451.png" alt="Customers" width="121">
+                        <p class="reso-sone-join-p">Join over <span class="reso-sone-span">4,000</span>+ other</p>
+                    </div>
+                </div>
+                <div class="reso-sone-img-box">
+                    <img src="./images/chat-bot-back.png" alt="Chat Bot" width="435" class="reso-sone-downimg">
+                    <img src="./images/screen-mask-ahead.png" alt="Screen Mask" width="359" class="reso-sone-upimg">
+                </div>
+            </div>
+            <!-- Як зробити відступ секції -->
         </section>
 
         <!-- Section 2 - Latest Stories -->
         <section>
-            <h3>Latest Stories</h3>
-
-            <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
-
-            <ul>
-                <li>
-                    <img src="./images/increasing-prosperity-resources-with-positive.jpg" alt="Laptop work" width="348">
-                    <p>By Wahid Ari | 03 March 2019</p>
-                    <h3>Increasing Prosperity With Positive Thinking</h3>
-                </li>
-
-                <li>
-                    <img src="./images/motivation-is-the-first-step.jpg" alt="Lecture" width="348">
-                    <p>By Wahid Ari | 03 March 2019</p>
-                    <h3>Motivation Is The First Step To Success</h3>
-                </li>
-
-                <li>
-                    <img src="./images/success-steps-for-your-personal.jpg" alt="Man in a suit" width="348">
-                    <p>By Wahid Ari | 03 March 2019</p>
-                    <h3>Success Steps For Your Personal Or Business</h3>
-                </li>
-
-                <li>
-                    <img src="./images/increasinf-prosperity-2.jpg" alt="Laptop work" width="348">
-                    <p>By Wahid Ari | 03 March 2019</p>
-                    <h3>Increasing Prosperity With Positive Thinking</h3>
-                </li>
-
-                <li>
-                    <img src="./images/motivation-is-the-2.jpg" alt="Laptop work" width="348">
-                    <p>By Wahid Ari | 03 March 2019</p>
-                    <h3>Motivation Is The First Step To Success</h3>
-                </li>
-
-                <li>
-                    <img src="./images/success-steps-2.jpg" alt="Woman with a laptop" width="348">
-                    <p>By Wahid Ari | 03 March 2019</p>
-                    <h3>Success Steps For Your Personal Or Business</h3>
-                </li>
-
-            </ul>
-
-            <p>More Stories</p>
+            <div class="container reso-stwo">
+                <h3>Latest Stories</h3>
+                <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                <ul>
+                    <li>
+                        <img src="./images/increasing-prosperity-resources-with-positive.jpg" alt="Laptop work"
+                            width="348">
+                        <p>By Wahid Ari | 03 March 2019</p>
+                        <h3>Increasing Prosperity With Positive Thinking</h3>
+                    </li>
+                    <li>
+                        <img src="./images/motivation-is-the-first-step.jpg" alt="Lecture" width="348">
+                        <p>By Wahid Ari | 03 March 2019</p>
+                        <h3>Motivation Is The First Step To Success</h3>
+                    </li>
+                    <li>
+                        <img src="./images/success-steps-for-your-personal.jpg" alt="Man in a suit" width="348">
+                        <p>By Wahid Ari | 03 March 2019</p>
+                        <h3>Success Steps For Your Personal Or Business</h3>
+                    </li>
+                    <li>
+                        <img src="./images/increasinf-prosperity-2.jpg" alt="Laptop work" width="348">
+                        <p>By Wahid Ari | 03 March 2019</p>
+                        <h3>Increasing Prosperity With Positive Thinking</h3>
+                    </li>
+                    <li>
+                        <img src="./images/motivation-is-the-2.jpg" alt="Laptop work" width="348">
+                        <p>By Wahid Ari | 03 March 2019</p>
+                        <h3>Motivation Is The First Step To Success</h3>
+                    </li>
+                    <li>
+                        <img src="./images/success-steps-2.jpg" alt="Woman with a laptop" width="348">
+                        <p>By Wahid Ari | 03 March 2019</p>
+                        <h3>Success Steps For Your Personal Or Business</h3>
+                    </li>
+                </ul>
+                <p>More Stories</p>
+            </div>
         </section>
 
         <!-- Section 3 - Contact Us -->
